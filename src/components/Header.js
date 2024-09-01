@@ -12,13 +12,13 @@ const links = [
 
 const Header = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-secondary p-2 mb-2 bg-opacity-25">
       <Navbar.Brand as={Link} to="/" className="ps-3">Home</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
           {links.map(link => (
-            <Nav.Link as={Link} to={link.ref}>{link.text}</Nav.Link>
+            <Nav.Link className="nav-item px-2 mx-1 rounded text-muted" as={Link} to={link.ref}>{link.text}</Nav.Link>
           ))}
         </Nav>
       </Navbar.Collapse>

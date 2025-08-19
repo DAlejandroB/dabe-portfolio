@@ -1,7 +1,20 @@
-# Diego Ballesteros's Porfolio source code
+# Diego Ballesteros's Porfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An interactive portfolio built to showcase my React skills and serve as a proof of concept for a more complete developer portfolio. While it currently focuses on frontend interactivity and UI, future iterations will integrate finalized projects and backend features.
 
-## Description
+## Tech Stack
+- Frontend: React
 
-This project was created using React's [Create React App](https://github.com/facebook/create-react-app). It is created to help showcase my different skills, experience, contact info and relevant information for anyone interested. It also works as a great practice for the tech stack used.
+## Features (Current)
+- Responsive design
+- Interactive UI components
+- Modular structure for easy extension
+
+## Planned Enhancements
+- Project showcase section
+- Backend integration for dynamic content
+- Expanded portfolio details
+- DEployed demo
+
+## Status
+🚧 Work in Progress — Currently a React showcase. More features and finalized projects coming soon.
